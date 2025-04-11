@@ -11,9 +11,9 @@ import { Contact } from './components/Contact';
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth ">
+    <div className="min-h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth ">
       {/* Hero Section */}
-      <section className="snap-start flex flex-col-reverse lg:flex-row items-center justify-between h-screen max-w-6xl mx-auto px-6">
+      <section className="snap-start flex flex-col-reverse md:flex-row items-center justify-between min-h-screen max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Left Side - Text */}
         <div className="flex-1 mt-10 lg:mt-0">
           <motion.h1
@@ -77,15 +77,15 @@ export default function Home() {
         </div>
 
         {/* Right Side - Image */}
-        <div className="flex-shrink-0 mb-10 lg:mb-0">
+        <div className="flex-shrink-0 mt-6 md:mt-0">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="rounded-full overflow-hidden w-64 h-64 shadow-lg border-4 border-white dark:border-zinc-800"
+            className="rounded-full overflow-hidden w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 mx-auto shadow-lg border-4 border-white dark:border-zinc-800"
           >
             <Image
-              src="/jatin-jain-saraf.jpg" // make sure this file exists in /public
+              src="/jatin-jain-saraf.jpg"
               alt="Jatin Jain Saraf"
               width={256}
               height={256}
@@ -103,32 +103,29 @@ export default function Home() {
       </section>
       <section
         id="projects"
-        className="snap-start h-screen px-6 py-16 bg-gradient-to-br from-gray-100 to-blue-50 dark:from-zinc-900 dark:to-zinc-800 overflow-y-auto"
+        className="snap-start h-screen px-6 py-16 bg-gradient-to-br from-gray-100 to-blue-50 dark:from-zinc-900 dark:to-zinc-800 "
       >
         <Projects />
       </section>
 
       <section
         id="experience"
-        className="snap-start h-screen px-6 py-20 bg-white dark:bg-zinc-900 overflow-y-auto"
+        className="snap-start h-screen px-6 py-20 bg-white dark:bg-zinc-900 "
       >
         <Experience />
       </section>
       <section
         id="blogs"
-        className="snap-start h-screen bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 overflow-y-auto"
+        className="snap-start h-screen bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 "
       >
         <Blogs />
       </section>
-<section
-  id="contact"
-  className="snap-start h-screen bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 flex flex-col items-center justify-center text-center"
->
-
-  <Contact />
-</section>
-
-    
+      <section
+        id="contact"
+        className="snap-start h-screen bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 flex flex-col items-center justify-center text-center"
+      >
+        <Contact />
+      </section>
     </div>
   );
 }
