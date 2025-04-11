@@ -48,7 +48,7 @@ export default function TechStack() {
   return (
     <section
       id="techstack"
-      className="snap-start h-screen px-4 sm:px-6 py-20 bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 overflow-y-auto"
+      className="snap-start min-h-screen scroll-mt  px-4 sm:px-6 py-20 bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 overflow-y-auto"
     >
       <div className="max-w-6xl mx-auto">
         <motion.h2

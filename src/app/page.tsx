@@ -11,9 +11,9 @@ import { Contact } from './components/Contact';
 
 export default function Home() {
   return (
-    <div className="min-h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth ">
+    <div className="overflow-y-auto snap-y snap-mandatory scroll-smooth sm:snap-none">
       {/* Hero Section */}
-      <section className="snap-start flex flex-col-reverse md:flex-row items-center justify-between min-h-screen max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <section className="snap-start flex flex-col-reverse md:flex-row items-center justify-between min-min-h-screen  max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Left Side - Text */}
         <div className="flex-1 mt-10 lg:mt-0">
           <motion.h1
@@ -103,26 +103,26 @@ export default function Home() {
       </section>
       <section
         id="projects"
-        className="snap-start h-screen px-6 py-16 bg-gradient-to-br from-gray-100 to-blue-50 dark:from-zinc-900 dark:to-zinc-800 "
+        className="snap-start min-h-screen scroll-mt  px-6 py-16 bg-gradient-to-br from-gray-100 to-blue-50 dark:from-zinc-900 dark:to-zinc-800 "
       >
         <Projects />
       </section>
 
       <section
         id="experience"
-        className="snap-start h-screen px-6 py-20 bg-white dark:bg-zinc-900 "
+        className="snap-start min-h-screen scroll-mt  px-6 py-20 bg-white dark:bg-zinc-900 "
       >
         <Experience />
       </section>
       <section
         id="blogs"
-        className="snap-start h-screen bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 "
+        className="snap-start min-h-screen scroll-mt  bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 "
       >
         <Blogs />
       </section>
       <section
         id="contact"
-        className="snap-start h-screen bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 flex flex-col items-center justify-center text-center"
+        className="snap-start min-h-screen scroll-mt  bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800 px-6 py-20 flex flex-col items-center justify-center text-center"
       >
         <Contact />
       </section>

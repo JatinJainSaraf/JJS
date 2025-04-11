@@ -44,7 +44,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="snap-start h-screen px-6 py-20 overflow-y-auto bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800"
+      className="snap-start min-h-screen scroll-mt  px-6 py-20 overflow-y-auto bg-gradient-to-br from-gray-50 to-blue-100 dark:from-zinc-900 dark:to-zinc-800"
     >
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
