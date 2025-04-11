@@ -1,13 +1,11 @@
 import {
   FaEnvelope,
   FaLinkedin,
-  FaTwitter,
   FaInstagram,
   FaWhatsapp,
   FaFacebook,
   FaTelegram,
   FaDiscord,
-  FaGithub,
 } from 'react-icons/fa';
 import { FaX } from 'react-icons/fa6';
 
