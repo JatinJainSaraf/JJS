@@ -1,2 +1,0 @@
-# JJS
-JJS | Portfolio
