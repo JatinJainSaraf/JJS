@@ -85,7 +85,7 @@ export default function Home() {
             className="rounded-full overflow-hidden w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 mx-auto shadow-lg border-4 border-white dark:border-zinc-800"
           >
             <Image
-              src="/jatin-jain-saraf.jpg"
+              src="/jjs.jpg"
               alt="Jatin Jain Saraf"
               width={256}
               height={256}
