@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-zinc-900 dark:bg-zinc-950 dark:text-white`}
       >
         <Navbar />
-        <main className="min-min-h-screen scroll-mt ">{children}</main>
+        <main className="min-h-screen scroll-mt ">{children}</main>
         <Footer />
       </body>
     </html>

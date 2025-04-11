@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="overflow-y-auto snap-y snap-mandatory scroll-smooth sm:snap-none">
       {/* Hero Section */}
-      <section className="snap-start flex flex-col-reverse md:flex-row items-center justify-between min-min-h-screen  max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <section className="snap-start flex flex-col-reverse md:flex-row items-center justify-between min-h-screen  max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Left Side - Text */}
         <div className="flex-1 mt-10 lg:mt-0">
           <motion.h1
