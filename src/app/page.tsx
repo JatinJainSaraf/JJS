@@ -1,7 +1,6 @@
 // app/page.tsx
 'use client';
 
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Projects from './components/Projects';
 import Experience from './components/Experience';

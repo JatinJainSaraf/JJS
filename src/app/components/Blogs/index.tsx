@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 type Blog = {
   title: string;
@@ -55,8 +54,6 @@ const blogs = [
 
 
 export default function Blogs() {
-  const [selectedBlog, setSelectedBlog] = useState<Blog | null>(null);
-
   return (
     <>
      
