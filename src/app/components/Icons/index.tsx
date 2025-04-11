@@ -9,6 +9,7 @@ import {
   FaDiscord,
   FaGithub,
 } from 'react-icons/fa';
+import { FaX } from 'react-icons/fa6';
 
 export const contacts = [
   {
@@ -19,41 +20,36 @@ export const contacts = [
   {
     name: 'LinkedIn',
     icon: <FaLinkedin />,
-    url: 'https://linkedin.com/in/jatinjainsaraf',
+    url: 'https://linkedin.com/in/jatin-jain-saraf',
   },
   {
-    name: 'Twitter',
-    icon: <FaTwitter />,
-    url: 'https://twitter.com/jatinjainsaraf',
+    name: 'X',
+    icon: <FaX />,
+    url: 'https://x.com/JatinJainSaraf1',
   },
   {
     name: 'Instagram',
     icon: <FaInstagram />,
-    url: 'https://instagram.com/jatinjainsaraf',
+    url: 'https://www.instagram.com/jatinjainsaraf/',
   },
   {
     name: 'WhatsApp',
     icon: <FaWhatsapp />,
-    url: 'https://wa.me/919099999999', // replace with your number
+    url: 'https://wa.me/919907593838', // replace with your number
   },
   {
     name: 'Facebook',
     icon: <FaFacebook />,
-    url: 'https://facebook.com/jatinjainsaraf',
+    url: 'https://www.facebook.com/JatinJainSaraf',
   },
   {
     name: 'Telegram',
     icon: <FaTelegram />,
-    url: 'https://t.me/jatinjainsaraf',
+    url: 'https://t.me/J_J_S_1',
   },
   {
     name: 'Discord',
     icon: <FaDiscord />,
-    url: 'https://discord.com/users/your-discord-id', // replace
-  },
-  {
-    name: 'GitHub',
-    icon: <FaGithub />,
-    url: 'https://github.com/jatinjainsaraf',
-  },
+    url: 'https://discord.com/users/jatinjainsaraf', // replace
+  }
 ];
