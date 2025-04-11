@@ -1,11 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-type Blog = {
-  title: string;
-  summary: string;
-  url: string;
-};
 const blogs = [
   {
     title: 'Demystifying API Gateway Patterns',
